@@ -16,7 +16,7 @@ const Footer = () => {
                   <div className="logo">
                     <a href="index.html"><img src="/images/logo.png" alt="#" /></a>
                   </div>
-                  <p className="text">Website bán hàng trực tuyến của Thắng Long Store, hỗ trợ 24/7 cùng nhiều ưu đẫi hấp dẫn. Luôn luôn cập nhật mới nhiều sản phẩm.</p>
+                  <p className="text">Website bán hàng trực tuyến của CoderLord Store, hỗ trợ 24/7 cùng nhiều ưu đẫi hấp dẫn. Luôn luôn cập nhật mới nhiều sản phẩm.</p>
                   <p className="text">Cần hỗ trợ liên hệ với chúng tôi: <span><a href="tel:123456789">+0123 456 789</a></span></p>
                 </div>
                 {/* End Single Widget */}

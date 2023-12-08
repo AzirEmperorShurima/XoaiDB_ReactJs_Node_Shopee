@@ -77,7 +77,7 @@ const Home = ({ match }) => {
             <h3 className='text-center'>Danh mục sản phẩm</h3>
             <div id="products_heading" className='container container-fluid'>
                 <ul id="ul_top_hypers">
-                    {categories.map(category => (
+                    {categories?.map(category => (
                         <li
                             style={{
                                 cursor: 'pointer',
@@ -140,7 +140,7 @@ const Home = ({ match }) => {
                                                 value={price}
                                                 onChange={price => setPrice(price)}
                                             />
-                                            <br/>
+                                            <br />
                                             <hr className="my-3" />
 
                                             <div className="mt-5">
@@ -184,7 +184,7 @@ const Home = ({ match }) => {
                                 </Fragment>
                             ) : (
                                 products.map(product => (
-                                    <Product key={product._id} product={product} col={3}/>
+                                    <Product key={product._id} product={product} col={3} />
                                 ))
                             )}
 
